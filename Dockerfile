@@ -6,13 +6,9 @@ RUN apt-get update && apt-get install -y \
       build-essential \
       bison \
       flex \
-      gcc-4.9 \
-      libasound2-dev \
       librtmidi-dev \
       libpulse-dev \
       libsndfile1-dev \
-      pulseaudio \
-      pulseaudio-utils \
       wget
 
 RUN mkdir /src/ && \
